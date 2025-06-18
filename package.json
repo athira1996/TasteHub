@@ -1,0 +1,19 @@
+{
+  "name": "tastehub",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "react": "18.x",
+    "react-dom": "18.x",
+    "tailwindcss": "^3.x"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.x",
+    "postcss": "^8.x"
+  },
+  "scripts": {
+    "start": "npx serve public",
+    "build": "echo Build step (handled by CodeSandbox/GitHub Pages)",
+    "postinstall": "tailwindcss build src/index.css -o public/output.css"
+  }
+}
